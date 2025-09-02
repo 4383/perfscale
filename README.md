@@ -1,6 +1,42 @@
-# Performance and Scale Testing Setup Guide for OpenStack Projects
+# Performance and Scale Testing Automation for OpenStack Projects
 
-This document provides detailed guidance on setting up Rally-based performance and scale testing for OpenStack projects, following the approach established in the Neutron project.
+This repository provides automated tools for implementing Rally-based performance and scale testing across OpenStack projects. Our goal is to standardize performance testing infrastructure using AI-powered code generation, following the successful approach established in the Neutron project.
+
+## What We Achieve
+
+This project automates the creation of complete Rally performance testing infrastructure for any OpenStack service, including:
+
+- **Automated service detection** from repository structure
+- **Service-specific test scenario generation** based on core operations
+- **Complete CI integration setup** following OpenStack standards
+- **Comprehensive documentation** for maintenance and extension
+- **Standardized directory structure** and configuration files
+
+## How to Use This Project
+
+To implement Rally performance testing for your OpenStack project using AI assistance:
+
+1. **Navigate to your OpenStack project repository**
+2. **Use Claude Code with the provided prompt**: Copy the content from `prompt.md` and provide it to Claude Code or any compatible coding agent
+3. **Run the automated implementation**: The AI agent will analyze your repository and implement the complete Rally testing infrastructure
+
+The prompt in `prompt.md` contains detailed specifications that guide the AI to:
+- Detect your OpenStack service type automatically
+- Generate appropriate performance test scenarios
+- Create all necessary configuration and documentation files
+- Follow OpenStack community best practices
+
+## Why Use AI for This Task
+
+Performance testing setup involves many repetitive, well-defined patterns that are perfect for AI automation:
+- Service detection follows predictable patterns across OpenStack projects
+- Rally configuration templates are standardized but require service-specific customization
+- Documentation structure is consistent but needs project-specific details
+- The implementation follows established conventions from successful projects like Neutron and Nova
+
+## Manual Implementation Guide
+
+This document also provides detailed guidance for manual setup if preferred:
 
 ## Overview
 
